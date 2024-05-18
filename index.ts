@@ -161,7 +161,10 @@ countResult(scores);
 
 //Question 16
 console.log("\n\nQuestion 16");
-
+function removeFalsey(values: any[]): any[] {
+    return values.filter(Boolean);
+  }
+  
 
 //Question 17
 console.log("\n\nQuestion 17");
